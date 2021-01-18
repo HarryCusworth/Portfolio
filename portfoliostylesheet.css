@@ -21,6 +21,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap:wrap;
+	margin-left: 40%;
 }
 
 .contactBar{
@@ -47,6 +48,10 @@ body {
 	margin:0 auto;
 /*	align-items:center;*/
 }
+.status{
+	font-size:1rem;
+	color:dark;
+}
 
 .contactDeets{
 	display: flex;
@@ -60,3 +65,40 @@ body {
 	margin:0 auto;
 	align-items:center;
 }
+
+.edwhere{
+	color:white;
+}
+
+.edwhen{
+	color:grey;
+	
+}
+
+.mainContent{
+	display:flex;
+	flex-direction:column;
+	wrap:nowrap;
+}
+.careerProfile{}
+	
+.profileBody{}
+	
+.projects{}
+	
+.experience{
+	display: flex;
+	flex-direction:column;
+	align-items:left;
+	wrap:nowrap;
+}
+
+.experienceItemHeading{
+	font-size:1rem;
+}
+	
+.experienceItemBody{
+	font-size:.7rem;
+}
+	
+	.contentHeadings{}
