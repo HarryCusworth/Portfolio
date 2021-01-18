@@ -1,0 +1,14 @@
+* {
+	box-sizing:border-box;
+}
+
+html { 
+	font-size:16px;
+	font-family:"Microsoft sans serif", sans-serif;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
