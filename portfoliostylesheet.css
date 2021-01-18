@@ -89,14 +89,18 @@ body {
 	flex-direction:column;
 	wrap:nowrap;
 }
-.careerProfile{display: flex;
+.careerProfile {
+	display: flex;
 	flex-direction:column;
 	align-items:left;
 	wrap:nowrap;
 	margin: 15px;
-	padding: 25px;}
+	padding: 25px;
+}
 	
-.profileBody{}
+.profileBody {
+	
+}
 	
 .projects{
 	display: flex;
