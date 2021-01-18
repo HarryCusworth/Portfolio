@@ -63,7 +63,7 @@ body {
 .educationDeets{
 	display: flex;
 	margin:0 auto;
-	align-items:center;
+	align-items:left;
 }
 
 .edwhere{
@@ -72,6 +72,15 @@ body {
 
 .edwhen{
 	color:grey;
+	
+}
+
+.langSkills {
+	display: flex;
+	flex-direction:column;
+	margin:0 auto;
+	justify-content:flex-start;
+}
 	
 }
 
@@ -116,3 +125,9 @@ body {
 }
 	
 	.contentHeadings{}
+
+.footer{
+	display:flex;
+	align-items:center;
+	margin:0 auto;
+}
