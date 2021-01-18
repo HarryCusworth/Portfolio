@@ -12,3 +12,41 @@ body {
 	padding:0px;
 }
 
+.splitGrid{
+	display: grid;
+	grid-template-columns: 75% 25% ;
+}
+.bodyExp{
+	background-color: #A8A9A9;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+
+.contactBar{
+	background-color: #EB792F;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+
+.profilepic{
+	border-radius 100px;
+	width: 100px;
+	display: flex;
+	margin:0 auto;
+	align-items:center;
+}
+
+.contactDeets{
+	display: flex;
+    	margin:0 auto;
+    	align-items:center;
+	
+}
+
+.educationDeets{
+	display: flex;
+	margin:0 auto;
+	align-items:center;
+}
