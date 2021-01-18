@@ -30,12 +30,22 @@ body {
 	flex-wrap:wrap;
 }
 
-.profilepic{
-	border-radius 100px;
-	width: 100px;
+.header{
+	background-color:#FFDE40;
 	display: flex;
 	margin:0 auto;
 	align-items:center;
+	flex-direction: column;
+	flex-wrap:wrap;
+	width: 100%;
+}
+
+.profilePic{
+	border-radius: 50%;
+	width: 100px;
+/*	display: flex;*/
+	margin:0 auto;
+/*	align-items:center;*/
 }
 
 .contactDeets{
