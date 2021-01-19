@@ -1,0 +1,228 @@
+* {
+	box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #D0D2CA;
+}
+a:hover {
+    color: #B4535A;
+}
+
+html { 
+	font-size:16px;
+	font-family:"Microsoft sans serif", sans-serif;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+
+h1{}
+h2 {font-size:1.3rem;
+	color:black;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+	
+h3 {
+	text-size:1rem;
+	color:black;
+	padding-bottom:15px;
+}
+
+h4 {}	
+
+.splitGrid {
+	display: grid;
+	grid-template-columns: 2fr 1fr ;
+	margin-left: 15%;
+	margin-right:15%;
+}
+
+.bodyExp {
+	background-color: #A8A9A9;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+
+}
+
+.contactBar {
+	background-color: #88A19E;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	align-items:left;
+	justify-content:flex-start;
+}
+
+.header {
+	background-color:#215097;
+	display: flex;
+	margin:0 auto;
+	align-items:center;
+	flex-direction: column;
+	flex-wrap:wrap;
+	width: 100%;
+	color:#D0D2CA;
+}
+
+.profilePic {
+	border-radius: 50%;
+	width: 180px;
+/*	display: flex;*/
+	margin-top:50px;
+/*	align-items:center;*/
+}
+.status {
+	font-size:1rem;
+	color:dark;
+}
+
+.contactDeets {
+	display: flex;
+	flex-direction:column;
+	align-items:left;
+/*	padding-left:25px;*/
+/*	padding-right:25px;*/
+	margin-left:24%;
+/*	margin-right:5%;*/
+	color:#D0D2CA;
+	padding-bottom:40px;
+	font-size:1rem;
+	}
+
+.educationDeets {
+	display: flex;
+	flex-direction:column;
+	align-items:left;
+/*	padding-left:25px;*/
+/*	padding-right:25px;*/
+	margin-left:24%;
+/*	margin-right:5px;*/
+	wrap:wrap;
+	padding-bottom:40px;
+}
+.langSkills {
+	display:flex;
+	flex-direction:column;
+	align-items:left;
+/*	padding-left:25px;*/
+/*	padding-right:25px;*/
+	margin-left:24%;
+	/*margin-right:5px;*/
+	padding-bottom:100px;
+}
+
+/*/edUnit{
+	padding-left:0px;
+	display:flex;
+	align-items:left;
+	flex-direction:column;
+	margin-left:0px;
+	
+}*/
+
+.edName { 
+	font-style:bold;
+	font-size:1rem;
+	color:Black;
+	padding-bottom:15px;
+}
+.edWhere {
+	font-style:normal;
+	font-size:.8rem;
+	color:#D0D2CA;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.edWhen {
+	font-style:normal;
+    font-size:.8rem;
+	color:#D0D2CA;
+	padding-bottom:3px;
+}
+
+
+	
+.langUnit {
+	font-style:normal;
+	font-size:1rem;
+	color:#D0D2CA;
+	padding-bottom:10px;
+}
+
+.mainContent {
+	display:flex;
+	flex-direction:column;
+	wrap:nowrap;
+}
+
+.careerProfile {
+	display: flex;
+	flex-direction:column;
+	align-items:left;
+	wrap:nowrap;
+	margin: 15px;
+	padding: 25px;
+}
+	
+.profileBody {	
+}
+	
+.projects {
+	display: flex;
+	flex-direction:column;
+	align-items:left;
+	wrap:nowrap;
+	margin: 15px;
+	padding: 25px;
+}
+	
+.experience {
+	display: flex;
+	flex-direction:column;
+	align-items:left;
+	wrap:nowrap;
+	margin: 15px;
+	padding: 25px;
+}
+
+.experienceItemHeading {
+	font-size:1.2rem;
+	padding-top:10px;
+	display:inline-block;
+	flaot:left;
+}
+
+.expDates {
+	font-size: 1rem;
+	display:inline-block;
+	float:right;
+	margin-left:auto;
+	color:#215097;
+	padding-top:10px;
+	padding-right:10%;
+}
+	
+.experienceItemBody {
+	font-size:.8rem;
+	padding-top:25px;
+	padding-bottom:10px;
+}
+	
+.contentHeadings {
+}
+
+.footer {
+	margin-left:40%;
+	font-size:.6rem;
+	border-top:5px;
+}
+	
