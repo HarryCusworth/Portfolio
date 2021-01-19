@@ -38,6 +38,11 @@ h3 {
 
 h4 {}	
 
+
+.name {display:flex;
+	align-items:center;
+	text-size:1.4rem;}
+
 .splitGrid {
 	display: grid;
 	grid-template-columns: 4fr 1fr ;
@@ -229,6 +234,29 @@ h4 {}
 	font-size:.6rem;
 	border-top:5px;
 }
+
+@media screen and (max-width:800px) {
+	html { 
+		font-size:20px;
+	}
+	
+	.splitGrid{
+		display:flex;
+		flex-direction:column-reverse;
+		wrap:wrap;
+		margin-left:0;
+		margin-right:0;
+		
+	}
+	.bodyExp {
+		background-color: #88A19E;
+	}
+	.header{
+		width:100%;
+		display:block;
+	}
+	}
+
 
 
 	
