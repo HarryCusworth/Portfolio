@@ -25,21 +25,22 @@ body {
 h1{}
 h2 {font-size:1.3rem;
 	color:black;
-	padding-top:15px;
+	padding-top:25px;
 	padding-bottom:15px;
 }
 	
 h3 {
 	text-size:1rem;
 	color:black;
-	padding-bottom:15px;
+	padding-bottom:10px;
 }
+
 
 h4 {}	
 
 .splitGrid {
 	display: grid;
-	grid-template-columns: 2fr 1fr ;
+	grid-template-columns: 4fr 1fr ;
 	margin-left: 15%;
 	margin-right:15%;
 }
@@ -89,12 +90,10 @@ h4 {}
 	flex-direction:column;
 	align-items:left;
 /*	padding-left:25px;*/
-/*	padding-right:25px;*/
-	margin-left:24%;
-/*	margin-right:5%;*/
-	color:#D0D2CA;
-	padding-bottom:40px;
-	font-size:1rem;
+	padding-right:25px;
+	margin-left:15%;
+	margin-right:5px;
+	padding-top:40px;
 	}
 
 .educationDeets {
@@ -102,23 +101,27 @@ h4 {}
 	flex-direction:column;
 	align-items:left;
 /*	padding-left:25px;*/
-/*	padding-right:25px;*/
-	margin-left:24%;
-/*	margin-right:5px;*/
+	padding-right:25px;
+	margin-left:15%;
+	margin-right:5px;
 	wrap:wrap;
-	padding-bottom:40px;
+	padding-top:40px;
 }
 .langSkills {
 	display:flex;
 	flex-direction:column;
 	align-items:left;
 /*	padding-left:25px;*/
-/*	padding-right:25px;*/
-	margin-left:24%;
-	/*margin-right:5px;*/
+	padding-right:25px;
+	margin-left:15%;
+	margin-right:5px;
 	padding-bottom:100px;
+	padding-top:40px;
 }
-
+.contactUnit{
+	color:#D0D2CA;
+	font-size:.9rem;
+}
 /*/edUnit{
 	padding-left:0px;
 	display:flex;
@@ -130,7 +133,7 @@ h4 {}
 
 .edName { 
 	font-style:bold;
-	font-size:1rem;
+	font-size:.9rem;
 	color:Black;
 	padding-bottom:15px;
 }
@@ -153,7 +156,7 @@ h4 {}
 	
 .langUnit {
 	font-style:normal;
-	font-size:1rem;
+	font-size:.9rem;
 	color:#D0D2CA;
 	padding-bottom:10px;
 }
@@ -171,6 +174,7 @@ h4 {}
 	wrap:nowrap;
 	margin: 15px;
 	padding: 25px;
+	padding-top:10%;
 }
 	
 .profileBody {	
@@ -225,4 +229,6 @@ h4 {}
 	font-size:.6rem;
 	border-top:5px;
 }
+
+
 	
