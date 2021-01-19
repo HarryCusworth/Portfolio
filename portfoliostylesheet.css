@@ -30,7 +30,7 @@ body {
 h3 {
 	font-family:"avenir book";
 	text-size:1rem;
-	color:black;
+	color:#B28537;
 }
 
 .name {
@@ -230,8 +230,8 @@ h3 {
 }
 	
 .contentHeadings {
+		color:#B28537;
 		font-size:2rem;
-		color:black;
 		padding-top:25px;
 		font-family:"avenir book";
 		text-transform: uppercase;
