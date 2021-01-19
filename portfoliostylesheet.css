@@ -12,11 +12,16 @@ body {
 	padding:0px;
 }
 
-.splitGrid{
+h1{}
+h2{}	
+h3{}
+h4{}	
+
+.splitGrid {
 	display: grid;
 	grid-template-columns: 75% 25% ;
 }
-.bodyExp{
+.bodyExp {
 	background-color: #A8A9A9;
 	display: flex;
 	flex-direction: column;
@@ -24,14 +29,14 @@ body {
 	margin-left: 40%;
 }
 
-.contactBar{
+.contactBar {
 	background-color: #EB792F;
 	display: flex;
 	flex-direction: column;
 	flex-wrap:wrap;
 }
 
-.header{
+.header {
 	background-color:#FFDE40;
 	display: flex;
 	margin:0 auto;
@@ -41,38 +46,59 @@ body {
 	width: 100%;
 }
 
-.profilePic{
+.profilePic {
 	border-radius: 50%;
 	width: 100px;
 /*	display: flex;*/
 	margin-top:25px;
 /*	align-items:center;*/
 }
-.status{
+.status {
 	font-size:1rem;
 	color:dark;
 }
 
-.contactDeets{
+.contactDeets {
 	display: flex;
-    	margin:0 auto;
-    	align-items:center;
-	
-}
-
-.educationDeets{
-	display: flex;
-	margin:0 auto;
+	flex-direction:column;
 	align-items:left;
+    margin-left:25px;
+    align-items:left;
+	padding-left:25px;
+	padding-right:25px;
+	}
+
+.educationDeets {
+	display: flex;
+	margin-left:25px;
+	align-items:left;
+	flex-direction:column;
+	padding-left:25px;
+	padding-right:25px;
 }
 
-.edwhere{
-	color:white;
+.edUnit{
+	padding-left:0px;
+	padding-right:25px;
+	display:flex;
+	align-items:left;
+	flex-direction:column;
+	margin-left:0px;
 }
-
-.edwhen{
-	color:grey;
+.edName{	text-style:bold;
+	text-size:1rem;
+	text-color:white;
 	
+}
+.edWhere {
+	text-style:normal;
+	text-size:.7rem;
+	text-color:white;
+}
+
+.edWhen {
+	text-style:normal;
+	text-size:.7rem;
 }
 
 .langSkills {
@@ -82,13 +108,13 @@ body {
 	justify-content:flex-start;
 }
 	
-}
 
-.mainContent{
+.mainContent {
 	display:flex;
 	flex-direction:column;
 	wrap:nowrap;
 }
+
 .careerProfile {
 	display: flex;
 	flex-direction:column;
@@ -98,8 +124,7 @@ body {
 	padding: 25px;
 }
 	
-.profileBody {
-	
+.profileBody {	
 }
 	
 .projects{
@@ -111,7 +136,7 @@ body {
 	padding: 25px;
 }
 	
-.experience{
+.experience {
 	display: flex;
 	flex-direction:column;
 	align-items:left;
@@ -120,17 +145,18 @@ body {
 	padding: 25px;
 }
 
-.experienceItemHeading{
+.experienceItemHeading {
 	font-size:1rem;
 }
 	
-.experienceItemBody{
+.experienceItemBody {
 	font-size:.7rem;
 }
 	
-	.contentHeadings{}
+.contentHeadings{
+}
 
-.footer{
+footer {
 	display:flex;
 	align-items:center;
 	margin:0 auto;
