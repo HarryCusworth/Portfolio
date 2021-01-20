@@ -15,7 +15,7 @@ a:hover {
 
 html { 
 	font-size:16px;
-	font-family:"Microsoft sans serif", sans-serif;
+	font-family:"verdana", sans-serif;
 }
 
 body {
@@ -219,24 +219,26 @@ h3 {
 	padding: 25px;
 }
 
+.expSpan{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:baseline;
+}
+
 .experienceItemHeading {
 	font-family:"avenir book";
 	font-size: 1.2rem;
-	padding-top:10px;
-	display:inline-block;
-	flaot:left;
+	padding-top:25px;
 }
 
 .expDates {
 	font-size: 1rem;
-	display:inline-block;
-	float:right;
-	margin-left:auto;
 	color:#215097;
+/*	vertical-align:bottom;*/
 	padding-top:10px;
 	padding-right:10%;
-	font-family:"Audrey";
-	font-style:"medium";
+	font-family:"avenir book";
 }
 	
 .experienceItemBody {
