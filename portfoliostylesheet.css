@@ -8,6 +8,7 @@ a {
 a:link, a:visited {
     color: #B4535A;
 }
+
 a:hover {
     color: #D0D2CA;
 }
@@ -18,28 +19,15 @@ html {
 }
 
 body {
-/*	font-family:"Audrey";*/
-/*	font-style:"medium";*/
 	margin:0px;
 	padding:0px;
-/*	background-color:#D59C3E;*/
 }
-
-
 	
 h3 {
 	font-family:"avenir book";
 	text-size:1rem;
 	color:#B28537;
 }
-
-.name {
-	font-family:"Avenir Book";
-	font-weight:"bold";
-	padding-top:15px;
-	display:flex;
-	align-items:center;
-	text-size:1.4rem;}
 
 .splitGrid {
 	display: grid;
@@ -48,16 +36,29 @@ h3 {
 	margin-right:15%;
 }
 
-.bodyExp {
-	background-color: #A8A9A9;
-	display: flex;
-	flex-direction: column;
-	flex-wrap:wrap;
 
+.footer {
+	margin-left:40%;
+	font-size:.6rem;
+	border-top:5px;
 }
 
+
+
+/*Elements from the right-hand side navigation bar*/
+
+.name {
+	font-family:"Avenir Book";
+	font-weight:"bold";
+	padding-top:15px;
+	display:flex;
+	align-items:center;
+	text-size:1.4rem;
+}
+
+
 .contactBar {
-	background-color: #88A19E;
+	background-color: #C6D2D1;
 	display: flex;
 	flex-direction: column;
 	flex-wrap:wrap;
@@ -84,6 +85,7 @@ h3 {
 	align-items:center;
 	margin:0 auto;
 }
+
 .status {
 	font-family:"avenir book";
 /*	font-style:"medium";*/
@@ -102,7 +104,7 @@ h3 {
 	margin-right:5px;
 	padding-top:40px;
 	line-height:130%;
-	}
+}
 
 .educationDeets {
 	display: flex;
@@ -116,6 +118,7 @@ h3 {
 	padding-top:20px;
 	line-spacing:120%;
 }
+
 .langSkills {
 	display:flex;
 	flex-direction:column;
@@ -127,6 +130,7 @@ h3 {
 	padding-bottom:100px;
 	padding-top:20px;
 }
+
 .contactUnit{
 	color:#B4535A;
 	font-size:.9rem;
@@ -144,6 +148,7 @@ h3 {
 	color:black;
 /*	padding-bottom:10px;*/
 }
+
 .edWhere {
 	font-size:.6rem;
 	color:black;
@@ -156,14 +161,22 @@ h3 {
 	color:black;
 	padding-bottom:10px;
 }
-
-
 	
 .langUnit {
 	font-style:normal;
 	font-size:.9rem;
 	color:black;
 	padding-bottom:10px;
+}
+
+/* Elements from the left hand body*/
+
+
+.bodyExp {
+	background-color: #CBCDCD;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
 }
 
 .mainContent {
@@ -182,8 +195,7 @@ h3 {
 	padding-top:10%;
 }
 	
-.profileBody {	
-}
+/*.profileBody {}*/
 	
 .projects {
 	display: flex;
@@ -230,21 +242,16 @@ h3 {
 }
 	
 .contentHeadings {
-		color:#B28537;
-		font-size:2rem;
-		padding-top:25px;
-		font-family:"avenir book";
-		text-transform: uppercase;
+	color:#B28537;
+	font-size:2rem;
+	padding-top:25px;
+	font-family:"avenir book";
+	text-transform: uppercase;
 	
 }
 
-.footer {
-	margin-left:40%;
-	font-size:.6rem;
-	border-top:5px;
-}
-
 @media only screen and (max-width:800px) {
+	
 	html { 
 		font-size:20px;
 	}
@@ -257,20 +264,21 @@ h3 {
 		margin-right:0;
 		
 	}
+	
 	.bodyExp {
 		background-color: #88A19E;
 	}
+	
 	.header{
-		.header {
-			background-color:#215097;
-			display: flex;
-			margin: 10%;
-			align-items:center;
-			flex-direction: column;
-			flex-wrap:wrap;
-			width: 100%;
-			color:#D0D2CA;
-			padding-bottom: 30px;
+		background-color:#215097;
+		display: flex;
+		margin: 10%;
+		align-items:center;
+		flex-direction: column;
+		flex-wrap:wrap;
+		width: 100%;
+		color:#D0D2CA;
+		padding-bottom: 30px;
 	}
 	
 	.name{
@@ -278,9 +286,9 @@ h3 {
 		align-items:center;
 		margin-left:25%;
 		margin-right:25%;
-		text-size:1.6rem;
-		
+		text-size:1.6rem;		
 	}
+	
 	.status{
 		align-items:center;
 		margin-left:25%;
@@ -297,6 +305,7 @@ h3 {
 		align-items:center;
 		margin-top: 40px;
 	}
+	
 	.contactBar {
 		background-color: #88A19E;
 		display: flex;
