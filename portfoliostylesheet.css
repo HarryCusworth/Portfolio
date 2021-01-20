@@ -6,10 +6,10 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: #D0D2CA;
+    color: #B4535A;
 }
 a:hover {
-    color: #B4535A;
+    color: #D0D2CA;
 }
 
 html { 
@@ -18,25 +18,28 @@ html {
 }
 
 body {
+/*	font-family:"Audrey";*/
+/*	font-style:"medium";*/
 	margin:0px;
 	padding:0px;
+/*	background-color:#D59C3E;*/
 }
 
-h1{}
-h2 {font-size:1.3rem;
-	color:black;
-	padding-top:25px;
-	padding-bottom:15px;
-}
+
 	
 h3 {
+	font-family:"avenir book";
 	text-size:1rem;
-	color:black;
-	padding-bottom:10px;
+	color:#B28537;
 }
 
-
-h4 {}	
+.name {
+	font-family:"Avenir Book";
+	font-weight:"bold";
+	padding-top:15px;
+	display:flex;
+	align-items:center;
+	text-size:1.4rem;}
 
 .splitGrid {
 	display: grid;
@@ -65,24 +68,28 @@ h4 {}
 .header {
 	background-color:#215097;
 	display: flex;
-	margin:0 auto;
 	align-items:center;
 	flex-direction: column;
-	flex-wrap:wrap;
+	flex-wrap:nowrap;
 	width: 100%;
 	color:#D0D2CA;
+	padding-top:40px;
+	padding-bottom:5px;
 }
 
 .profilePic {
 	border-radius: 50%;
-	width: 180px;
-/*	display: flex;*/
-	margin-top:50px;
-/*	align-items:center;*/
+	width: 80%;
+	display: flex;
+	align-items:center;
+	margin:0 auto;
 }
 .status {
-	font-size:1rem;
-	color:dark;
+	font-family:"avenir book";
+/*	font-style:"medium";*/
+	font-size:.8rem;
+	padding-bottom:15px;
+	padding-top:15px;
 }
 
 .contactDeets {
@@ -94,6 +101,7 @@ h4 {}
 	margin-left:15%;
 	margin-right:5px;
 	padding-top:40px;
+	line-height:130%;
 	}
 
 .educationDeets {
@@ -105,7 +113,8 @@ h4 {}
 	margin-left:15%;
 	margin-right:5px;
 	wrap:wrap;
-	padding-top:40px;
+	padding-top:20px;
+	line-spacing:120%;
 }
 .langSkills {
 	display:flex;
@@ -116,40 +125,36 @@ h4 {}
 	margin-left:15%;
 	margin-right:5px;
 	padding-bottom:100px;
-	padding-top:40px;
+	padding-top:20px;
 }
 .contactUnit{
-	color:#D0D2CA;
+	color:#B4535A;
 	font-size:.9rem;
+	focus:;
 }
-/*/edUnit{
-	padding-left:0px;
-	display:flex;
-	align-items:left;
-	flex-direction:column;
-	margin-left:0px;
-	
-}*/
+
+.contactUnit:hover{
+	color:#D0D2CA;
+}
 
 .edName { 
-	font-style:bold;
-	font-size:.9rem;
-	color:Black;
-	padding-bottom:15px;
+/*	font-family:"Audrey";*/
+	font-weight:"bold";
+	font-size:1rem;
+	color:black;
+/*	padding-bottom:10px;*/
 }
 .edWhere {
-	font-style:normal;
-	font-size:.8rem;
-	color:#D0D2CA;
-	padding-bottom:10px;
-	padding-top:10px;
+	font-size:.6rem;
+	color:black;
+/*	padding-bottom:10px;*/
+/*	padding-top:10px;*/
 }
 
 .edWhen {
-	font-style:normal;
-    font-size:.8rem;
-	color:#D0D2CA;
-	padding-bottom:3px;
+    font-size:.6rem;
+	color:black;
+	padding-bottom:10px;
 }
 
 
@@ -157,7 +162,7 @@ h4 {}
 .langUnit {
 	font-style:normal;
 	font-size:.9rem;
-	color:#D0D2CA;
+	color:black;
 	padding-bottom:10px;
 }
 
@@ -199,7 +204,8 @@ h4 {}
 }
 
 .experienceItemHeading {
-	font-size:1.2rem;
+	font-family:"avenir book";
+	font-size: 1.2rem;
 	padding-top:10px;
 	display:inline-block;
 	flaot:left;
@@ -213,15 +219,23 @@ h4 {}
 	color:#215097;
 	padding-top:10px;
 	padding-right:10%;
+	font-family:"Audrey";
+	font-style:"medium";
 }
 	
 .experienceItemBody {
 	font-size:.8rem;
-	padding-top:25px;
+	padding-top:5px;
 	padding-bottom:10px;
 }
 	
 .contentHeadings {
+		color:#B28537;
+		font-size:2rem;
+		padding-top:25px;
+		font-family:"avenir book";
+		text-transform: uppercase;
+	
 }
 
 .footer {
@@ -229,6 +243,75 @@ h4 {}
 	font-size:.6rem;
 	border-top:5px;
 }
+
+@media only screen and (max-width:800px) {
+	html { 
+		font-size:20px;
+	}
+	
+	.splitGrid{
+		display:flex;
+		flex-direction:column-reverse;
+		wrap:wrap;
+		margin-left:0;
+		margin-right:0;
+		
+	}
+	.bodyExp {
+		background-color: #88A19E;
+	}
+	.header{
+		.header {
+			background-color:#215097;
+			display: flex;
+			margin: 10%;
+			align-items:center;
+			flex-direction: column;
+			flex-wrap:wrap;
+			width: 100%;
+			color:#D0D2CA;
+			padding-bottom: 30px;
+	}
+	
+	.name{
+		display:flex;
+		align-items:center;
+		margin-left:25%;
+		margin-right:25%;
+		text-size:1.6rem;
+		
+	}
+	.status{
+		align-items:center;
+		margin-left:25%;
+		margin-right:25%;
+		text-size: 1.2rem;
+		padding-bottom:20px;
+	}
+	
+	.profilePic {
+		border-radius: 50%;
+		width: 80%;
+		display: flex;
+		margin:auto;
+		align-items:center;
+		margin-top: 40px;
+	}
+	.contactBar {
+		background-color: #88A19E;
+		display: flex;
+		flex-direction: column;
+		flex-wrap:wrap;
+		align-items:center;
+		justify-content:flex-start;
+	}
+	
+	.footer {
+		margin:0;
+	}
+	
+	}
+
 
 
 	
