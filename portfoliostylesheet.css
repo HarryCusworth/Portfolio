@@ -106,6 +106,10 @@ h3 {
 	line-height:130%;
 }
 
+.contactIcon{
+	color:blue;
+}
+
 .educationDeets {
 	display: flex;
 	flex-direction:column;
