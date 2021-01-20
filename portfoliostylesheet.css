@@ -6,11 +6,11 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: #B4535A;
+    color: #CE3B45;
 }
 
 a:hover {
-    color: #D0D2CA;
+    color: #D38E17;
 }
 
 html { 
@@ -26,7 +26,7 @@ body {
 h3 {
 	font-family: "avenir book";
 	font-size: .9rem;
-	color: #B28537;
+	color: #D38E17;
 	text-transform: uppercase;
 }
 
@@ -129,13 +129,13 @@ h3 {
 }
 
 .contactUnit{
-	color: #B4535A;
+	color: #CE3B45;
 	font-size: .9rem;
 }
 
-.contactUnit:hover{
-	color :#D0D2CA;
-}
+/*.contactUnit:hover{*/
+/*	color :#D0D2CA;*/
+/*}*/
 
 .edName { 
 	font-size: .9rem;
@@ -237,7 +237,7 @@ h3 {
 }
 	
 .contentHeadings {
-	color: #B28537;
+	color: #D38E17;
 	font-size: 2rem;
 	padding-top: 10px;
 	font-family: "avenir book";
@@ -261,7 +261,7 @@ h3 {
 	}
 	
 	.bodyExp {
-		background-color: #88A19E;
+		background-color: #C6D2D1;
 	}
 	
 	.header{
