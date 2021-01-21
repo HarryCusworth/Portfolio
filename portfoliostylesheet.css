@@ -5,6 +5,7 @@
 a {
     text-decoration: none;
 }
+
 a:link, a:visited {
     color: #CE3B45;
 }
@@ -16,7 +17,7 @@ a:hover {
 html { 
 	font-size: 16px;
 	font-family: "verdana", "microsoft-sans-serif", sans-serif;
-	},
+}
 
 body {
 	margin: 0px;
@@ -37,7 +38,6 @@ h3 {
 	margin-right: 15%;
 }
 
-
 .footer {
 	margin-left: 0 auto;
 	font-size: .6rem;
@@ -56,7 +56,6 @@ h3 {
 	align-items: center;
 	text-size: 1.4rem;
 }
-
 
 .contactBar {
 	background-color: #C6D2D1;
@@ -111,15 +110,15 @@ h3 {
 	padding-right: 25px;
 	margin-left: 15%;
 	margin-right: 5px;
-	wrap:wrap;
+	wrap: wrap;
 	padding-top: 20px;
-	line-spacing:120%;
+	line-spacing: 120%;
 }
 
 .langSkills {
 	display: flex;
 	flex-direction: column;
-	align-items:left;
+	align-items: left;
 	padding-right: 25px;
 	margin-left: 15%;
 	margin-right: 5px;
@@ -140,7 +139,7 @@ h3 {
 .edWhere {
 	font-size: .7rem;
 	color: #292B2F;
-	padding-top:10px;
+	padding-top: 10px;
 }
 
 .edWhen {
@@ -250,7 +249,7 @@ h3 {
 
 .folioImage {
 	max-width: 13vw;
-	border: solid  2px;
+	border: 2px solid;
 	border-radius: 10px;
 }
 
@@ -368,10 +367,12 @@ figcaption {
 		align-items: center;
 	
 	}
+	
 	.folioImageHolder {
 		visibility: hidden;
 		display: none;
 	}
+	
 	.folioMobileLink {
 		visibility: visible;
 		display: inline-block;
