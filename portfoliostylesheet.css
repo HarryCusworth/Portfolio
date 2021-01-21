@@ -360,7 +360,7 @@ figcaption {
 		padding-right: 0px;
 		margin-left: 0px;
 		margin-right: 0px;
-		wrap: wrap;
+		flex-wrap: wrap;
 		padding-top: 20px;
 		align-items: center;
 	
