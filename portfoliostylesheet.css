@@ -15,8 +15,8 @@ a:hover {
 
 html { 
 	font-size: 16px;
-	font-family: "verdana", sans-serif;
-}
+	font-family: "verdana", "microsoft-sans-serif" sans-serif;
+	},
 
 body {
 	margin: 0px;
@@ -24,7 +24,7 @@ body {
 }
 	
 h3 {
-	font-family: "avenir book";
+	font-family: "avenir book", "verdana", "microsoft-sans-serif";
 	font-size: .9rem;
 	color: #D38E17;
 	text-transform: uppercase;
@@ -49,7 +49,7 @@ h3 {
 /*Elements from the right-hand side navigation bar*/
 
 .name {
-	font-family: "Avenir Book";
+	font-family: "Avenir Book", "verdana","microsoft sans serif";
 	font-weight: "bold";
 	padding-top: 15px;
 	display: flex;
@@ -88,7 +88,7 @@ h3 {
 }
 
 .status {
-	font-family: "avenir book";
+	font-family: "avenir book", "verdana", "microsoft sans serif";
 	font-size: .8rem;
 	padding-bottom: 15px;
 	padding-top: 15px;
@@ -217,7 +217,7 @@ h3 {
 }
 
 .experienceItemHeading {
-	font-family: "avenir book";
+	font-family: "avenir book",  "verdana", "microsoft sans serif";
 	font-size: 1.2rem;
 	padding-top: 25px;
 }
@@ -227,7 +227,7 @@ h3 {
 	color: #215097;
 	padding-top: 10px;
 	padding-right: 10%;
-	font-family: "avenir book";
+	font-family: "avenir book",  "verdana", "microsoft sans serif";
 }
 	
 .experienceItemBody {
@@ -240,9 +240,40 @@ h3 {
 	color: #D38E17;
 	font-size: 2rem;
 	padding-top: 10px;
-	font-family: "avenir book";
+	font-family: "avenir book",  "verdana", "microsoft sans serif";
 	text-transform: uppercase;
 	
+}
+
+.portfolioBanner {
+	display:flex;
+	flex-direction: row;
+	wrap:nowrap;
+	justify-content: space-between;	
+	align-items:top;
+}
+
+.folioImage{
+	max-width:13vw;
+	border: solid 2px;
+	border-radius:10px;
+}
+
+figcaption {
+	font-size:.6rem;
+}
+
+.folioImageHolder {
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	padding-left:25px;
+	padding-top:8px;
+}
+
+.folioMobileLink {
+	visibility:hidden;
+	display:none;
 }
 
 @media only screen and (max-width:800px) {
@@ -338,6 +369,21 @@ h3 {
 		align-items: center;
 	
 	}
+	.folioImageHolder {
+		visibility:hidden;
+		display:none;
+	}
+	.folioMobileLink {
+		visibility:visible;
+		display:inline-block;
+		padding-top:25px;
+	}
+	
+	.portfolioBanner {
+		align-items:center;
+	}
+	
+	
 
 
 
