@@ -11,12 +11,20 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #D38E17;
+    color: #215097;
 }
 
 html { 
 	font-size: 16px;
 	font-family: "verdana", "microsoft-sans-serif", sans-serif;
+}
+
+main{
+	display: grid;
+	grid-template-columns: 4fr 1fr ;
+	margin-left: 15%;
+	margin-right: 15%;
+	
 }
 
 body {
@@ -31,15 +39,7 @@ h3 {
 	text-transform: uppercase;
 }
 
-.splitGrid {
-	display: grid;
-	grid-template-columns: 4fr 1fr ;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
 .footer {
-	margin-left: 0 auto;
 	font-size: .6rem;
 	border-top: 5px;
 }
@@ -47,6 +47,10 @@ h3 {
 
 
 /*Elements from the right-hand side navigation bar*/
+
+.contactIcon {
+	color: #215097;
+}
 
 .name {
 	font-family: "Avenir Book", "verdana","microsoft sans serif";
@@ -71,11 +75,10 @@ h3 {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	flex-wrap: nowrap;
-	width: 100%;
 	color: #D0D2CA;
 	padding-top: 40px;
 	padding-bottom: 5px;
+	flex-wrap: wrap;
 }
 
 .profilePic {
@@ -106,19 +109,16 @@ h3 {
 .educationDeets {
 	display: flex;
 	flex-direction: column;
-	align-items: left;
 	padding-right: 25px;
 	margin-left: 15%;
 	margin-right: 5px;
-	wrap: wrap;
 	padding-top: 20px;
-	line-spacing: 120%;
+	line-height: 100%;
 }
 
 .langSkills {
 	display: flex;
 	flex-direction: column;
-	align-items: left;
 	padding-right: 25px;
 	margin-left: 15%;
 	margin-right: 5px;
@@ -133,7 +133,6 @@ h3 {
 
 .edName { 
 	font-size: .9rem;
-	color: black;
 }
 
 .edWhere {
@@ -151,12 +150,15 @@ h3 {
 .langUnit {
 	font-style: normal;
 	font-size: .9rem;
-	color: black;
 	padding-bottom: 10px;
 }
 
 /* Elements from the left hand body*/
 
+
+.fas.fa-rocket {
+	color: #CE3B45
+}
 
 .bodyExp {
 	background-color: #CBCDCD;
@@ -168,7 +170,7 @@ h3 {
 .mainContent {
 	display: flex;
 	flex-direction: column;
-	wrap: nowrap;
+	flex-wrap: nowrap;
 }
 
 .careerProfile {
@@ -182,14 +184,12 @@ h3 {
 .profileBody {
 	font-size: .9rem;
 	padding-top: 5px;
-	line-spacing: 110%;
+	line-height: 110%;
 }
 	
 .projects {
 	display: flex;
 	flex-direction: column;
-	align-items: left;
-	wrap: nowrap;
 	margin: 15px;
 	padding: 25px;
 }
@@ -197,8 +197,6 @@ h3 {
 .experience {
 	display: flex;
 	flex-direction: column;
-	align-items: left;
-	wrap: nowrap;
 	margin: 15px;
 	padding: 25px;
 }
@@ -230,7 +228,7 @@ h3 {
 	padding-bottom: 10px;
 }
 	
-.contentHeadings {
+.contentHeading {
 	color: #D38E17;
 	font-size: 2rem;
 	padding-top: 10px;
@@ -280,7 +278,7 @@ figcaption {
 		font-size: 20px;
 	}
 	
-	.splitGrid {
+	main {
 		display: flex;
 		flex-direction: column-reverse;
 		wrap: wrap;
@@ -360,9 +358,9 @@ figcaption {
 	
 	.educationDeets {
 		padding-right: 0px;
-		margin-left: 0%;
+		margin-left: 0px;
 		margin-right: 0px;
-		wrap: wrap;
+		flex-wrap: wrap;
 		padding-top: 20px;
 		align-items: center;
 	
