@@ -246,34 +246,34 @@ h3 {
 }
 
 .portfolioBanner {
-	display:flex;
+	display: flex;
 	flex-direction: row;
-	wrap:nowrap;
+	wrap: nowrap;
 	justify-content: space-between;	
-	align-items:top;
+	align-items: top;
 }
 
-.folioImage{
-	max-width:13vw;
-	border: solid 2px;
-	border-radius:10px;
+.folioImage {
+	max-width: 13vw;
+	border: solid  2px;
+	border-radius: 10px;
 }
 
 figcaption {
-	font-size:.6rem;
+	font-size: .6rem;
 }
 
 .folioImageHolder {
-	display:flex;
+	display: flex;
 	flex-direction: column;
-	align-items:center;
-	padding-left:25px;
-	padding-top:8px;
+	align-items: center;
+	padding-left: 25px;
+	padding-top: 8px;
 }
 
 .folioMobileLink {
-	visibility:hidden;
-	display:none;
+	visibility: hidden;
+	display: none;
 }
 
 @media only screen and (max-width:800px) {
@@ -282,7 +282,7 @@ figcaption {
 		font-size: 20px;
 	}
 	
-	.splitGrid{
+	.splitGrid {
 		display: flex;
 		flex-direction: column-reverse;
 		wrap: wrap;
@@ -295,7 +295,7 @@ figcaption {
 		background-color: #C6D2D1;
 	}
 	
-	.header{
+	.header {
 		background-color: #215097;
 		display: flex;
 		align-items: center;
@@ -306,7 +306,7 @@ figcaption {
 		padding-bottom: 30px;
 	}
 	
-	.name{
+	.name {
 		display: flex;
 		align-items: center;
 		margin-left: 25%;
@@ -314,7 +314,7 @@ figcaption {
 		text-size: 1.6rem;		
 	}
 	
-	.status{
+	.status {
 		align-items: center;
 		margin-left: 25%;
 		margin-right: 25%;
@@ -370,17 +370,17 @@ figcaption {
 	
 	}
 	.folioImageHolder {
-		visibility:hidden;
-		display:none;
+		visibility: hidden;
+		display: none;
 	}
 	.folioMobileLink {
-		visibility:visible;
-		display:inline-block;
-		padding-top:25px;
+		visibility: visible;
+		display: inline-block;
+		padding-top: 25px;
 	}
 	
 	.portfolioBanner {
-		align-items:center;
+		align-items: center;
 	}
 	
 	
