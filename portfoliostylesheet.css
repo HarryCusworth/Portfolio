@@ -11,7 +11,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #D38E17;
+    color: #215097;
 }
 
 html { 
@@ -377,6 +377,7 @@ figcaption {
 		visibility: visible;
 		display: inline-block;
 		padding-top: 25px;
+		padding-left: 25px;
 	}
 	
 	.portfolioBanner {
