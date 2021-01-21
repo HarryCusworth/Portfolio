@@ -5,17 +5,18 @@
 a {
     text-decoration: none;
 }
+
 a:link, a:visited {
-    color: #B4535A;
+    color: #CE3B45;
 }
 
 a:hover {
-    color: #D0D2CA;
+    color: #D38E17;
 }
 
 html { 
 	font-size: 16px;
-	font-family: "verdana", sans-serif;
+	font-family: "verdana", "microsoft-sans-serif", sans-serif;
 }
 
 body {
@@ -24,9 +25,9 @@ body {
 }
 	
 h3 {
-	font-family: "avenir book";
+	font-family: "avenir book", "verdana", "microsoft-sans-serif";
 	font-size: .9rem;
-	color: #B28537;
+	color: #D38E17;
 	text-transform: uppercase;
 }
 
@@ -36,7 +37,6 @@ h3 {
 	margin-left: 15%;
 	margin-right: 15%;
 }
-
 
 .footer {
 	margin-left: 0 auto;
@@ -49,14 +49,13 @@ h3 {
 /*Elements from the right-hand side navigation bar*/
 
 .name {
-	font-family: "Avenir Book";
+	font-family: "Avenir Book", "verdana","microsoft sans serif";
 	font-weight: "bold";
 	padding-top: 15px;
 	display: flex;
 	align-items: center;
 	text-size: 1.4rem;
 }
-
 
 .contactBar {
 	background-color: #C6D2D1;
@@ -88,7 +87,7 @@ h3 {
 }
 
 .status {
-	font-family: "avenir book";
+	font-family: "avenir book", "verdana", "microsoft sans serif";
 	font-size: .8rem;
 	padding-bottom: 15px;
 	padding-top: 15px;
@@ -111,16 +110,15 @@ h3 {
 	padding-right: 25px;
 	margin-left: 15%;
 	margin-right: 5px;
-	wrap:wrap;
+	wrap: wrap;
 	padding-top: 20px;
-	line-spacing:120%;
+	line-spacing: 120%;
 }
 
 .langSkills {
 	display: flex;
 	flex-direction: column;
-	align-items:left;
-/*	padding-left:25px;*/
+	align-items: left;
 	padding-right: 25px;
 	margin-left: 15%;
 	margin-right: 5px;
@@ -129,12 +127,8 @@ h3 {
 }
 
 .contactUnit{
-	color: #B4535A;
+	color: #CE3B45;
 	font-size: .9rem;
-}
-
-.contactUnit:hover{
-	color :#D0D2CA;
 }
 
 .edName { 
@@ -145,7 +139,7 @@ h3 {
 .edWhere {
 	font-size: .7rem;
 	color: #292B2F;
-	padding-top:10px;
+	padding-top: 10px;
 }
 
 .edWhen {
@@ -217,7 +211,7 @@ h3 {
 }
 
 .experienceItemHeading {
-	font-family: "avenir book";
+	font-family: "avenir book",  "verdana", "microsoft sans serif";
 	font-size: 1.2rem;
 	padding-top: 25px;
 }
@@ -227,7 +221,7 @@ h3 {
 	color: #215097;
 	padding-top: 10px;
 	padding-right: 10%;
-	font-family: "avenir book";
+	font-family: "avenir book",  "verdana", "microsoft sans serif";
 }
 	
 .experienceItemBody {
@@ -237,12 +231,47 @@ h3 {
 }
 	
 .contentHeadings {
-	color: #B28537;
+	color: #D38E17;
 	font-size: 2rem;
 	padding-top: 10px;
-	font-family: "avenir book";
+	font-family: "avenir book",  "verdana", "microsoft sans serif";
 	text-transform: uppercase;
 	
+}
+
+.portfolioBanner {
+	display: flex;
+	flex-direction: row;
+	wrap: nowrap;
+	justify-content: space-between;	
+	align-items: top;
+}
+
+.folioImage {
+	max-width: 13vw;
+	border: 2px solid;
+	border-radius: 10px;
+}
+
+figcaption {
+	font-size: .6rem;
+}
+
+.folioImageHolder {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 25px;
+	padding-top: 8px;
+}
+
+.folioMobileLink {
+	visibility: hidden;
+	display: none;
+}
+
+.mobileLink:hover {
+	color: #215097;
 }
 
 @media only screen and (max-width:800px) {
@@ -251,7 +280,7 @@ h3 {
 		font-size: 20px;
 	}
 	
-	.splitGrid{
+	.splitGrid {
 		display: flex;
 		flex-direction: column-reverse;
 		wrap: wrap;
@@ -261,10 +290,10 @@ h3 {
 	}
 	
 	.bodyExp {
-		background-color: #88A19E;
+		background-color: #C6D2D1;
 	}
 	
-	.header{
+	.header {
 		background-color: #215097;
 		display: flex;
 		align-items: center;
@@ -275,7 +304,7 @@ h3 {
 		padding-bottom: 30px;
 	}
 	
-	.name{
+	.name {
 		display: flex;
 		align-items: center;
 		margin-left: 25%;
@@ -283,7 +312,7 @@ h3 {
 		text-size: 1.6rem;		
 	}
 	
-	.status{
+	.status {
 		align-items: center;
 		margin-left: 25%;
 		margin-right: 25%;
@@ -338,6 +367,24 @@ h3 {
 		align-items: center;
 	
 	}
+	
+	.folioImageHolder {
+		visibility: hidden;
+		display: none;
+	}
+	
+	.folioMobileLink {
+		visibility: visible;
+		display: inline-block;
+		padding-top: 25px;
+		padding-left: 25px;
+	}
+	
+	.portfolioBanner {
+		align-items: center;
+	}
+	
+	
 
 
 
