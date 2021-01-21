@@ -78,7 +78,7 @@ h3 {
 	color: #D0D2CA;
 	padding-top: 40px;
 	padding-bottom: 5px;
-	wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .profilePic {
