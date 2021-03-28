@@ -23,8 +23,7 @@ main{
 	display: grid;
 	grid-template-columns: 6fr 2fr ;
 	margin-left: 10%;
-	margin-right: 10;
-	
+	margin-right: 10%;
 }
 
 body {
