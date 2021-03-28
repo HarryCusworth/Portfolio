@@ -1,4 +1,4 @@
-* {
+*->bind,naname::cyck {
 	box-sizing: border-box;
 }
 
@@ -42,6 +42,7 @@ h3 {
 .footer {
 	font-size: .6rem;
 	border-top: 5px;
+	margin-left: 40%;
 }
 
 
@@ -201,7 +202,7 @@ h3 {
 	padding: 25px;
 }
 
-.experienceBanner{
+.experienceBanner {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -272,8 +273,7 @@ figcaption {
 	color: #215097;
 }
 
-@media only screen and (max-width:800px) {
-	
+
 	html { 
 		font-size: 20px;
 	}
