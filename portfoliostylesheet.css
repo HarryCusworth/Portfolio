@@ -21,9 +21,9 @@ html {
 
 main{
 	display: grid;
-	grid-template-columns: 4fr 1fr ;
-	margin-left: 15%;
-	margin-right: 15%;
+	grid-template-columns: 6fr 2fr ;
+	margin-left: 10%;
+	margin-right: 10;
 	
 }
 
@@ -234,15 +234,16 @@ h3 {
 	padding-top: 10px;
 	font-family: "avenir book",  "verdana", "microsoft sans serif";
 	text-transform: uppercase;
-	
 }
+.projectsContainer{
+	display:flex;
+	flex-direction: column;
 
+}
 .portfolioBanner {
 	display: flex;
 	flex-direction: row;
-	wrap: nowrap;
-	justify-content: space-between;	
-	align-items: top;
+	justify-content: space-between;
 }
 
 .folioImage {
